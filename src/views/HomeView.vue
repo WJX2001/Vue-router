@@ -112,7 +112,7 @@ export default {
     },
 
     async login() {
-      
+      // 登录验证版本
       // 提供isAuthenticated
       // TODO: 网络请求
       // 此时并不能成功，因为此时存在跨域问题，需要通过vue的proxy解决
@@ -127,7 +127,7 @@ export default {
       }
       console.log(result)
 
-
+      // 不需要登录验证
       // const token = await getToken()
 
       // sessionStorage.setItem('token',token)
@@ -137,7 +137,7 @@ export default {
       //   // 提供isAuthenticated
       //   query: { email: this.form.email },
       // });
-      // // router.push({path: 'about'})
+      // router.push({path: 'about'})
       
     },
     open1() {

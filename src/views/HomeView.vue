@@ -116,7 +116,7 @@ export default {
       // 提供isAuthenticated
       // TODO: 网络请求
       // 此时并不能成功，因为此时存在跨域问题，需要通过vue的proxy解决
-      const result = await http.post('/login', {username: this.form.name, password: this.form.passwd})
+      const result = await http.post('/login', {username: this.form.name, password: this.form.passwd, email: this.form.email})
       const data = result.data;
       if (data.success) {
         const token = data.data.token

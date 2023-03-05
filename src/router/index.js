@@ -4,11 +4,12 @@ import HomeView from '@/views/HomeView.vue'
 import MainView from '@/views/MainView.vue'
 import DefaultTab from '@/components/navbar/DefaultTab.vue'
 import DataTab from '@/components/navbar/DataTab.vue'
+import UserManage from '@/components/user/UserManage.vue'
 Vue.use(VueRouter)
 
 const routesArr = [
   {
-    path: '/',
+    path: '/', 
     
     component: HomeView
   },
@@ -33,12 +34,18 @@ const routesArr = [
       {
         path: 'data',
         component: DataTab,
+      }, 
+
+      {
+        path: 'user',
+         component: UserManage
       },
 
       {
         path: '',
         redirect: 'default'
-      }
+      },
+      
     ]
   }
 ]

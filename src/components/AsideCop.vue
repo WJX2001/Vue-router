@@ -9,6 +9,10 @@
         <i class="el-icon-document"></i>
         <span slot="title">{{ $t("msg.dataMg") }}</span>
       </el-menu-item>
+      <el-menu-item index="2">
+        <i class="el-icon-document"></i>
+        <span slot="title">用户管理</span>
+      </el-menu-item>
     </el-menu>
     
     <div class="aside-footer">@Chrisjx 2023</div>
@@ -35,6 +39,7 @@ export default {
     const pathVal = this.$route.params.userId;
     this.routeMap.set('0',`/main/${pathVal}/default`)
     this.routeMap.set('1',`/main/${pathVal}/data`)
+    this.routeMap.set('2',`/main/${pathVal}/user`)
   },
   methods: {
     active(index) {

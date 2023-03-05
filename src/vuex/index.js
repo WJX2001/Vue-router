@@ -6,7 +6,7 @@ Vue.use(Vuex)
 // vuex的初始化
 
 const stateIns = {
-    sentence: '小用一下vuex🤣🤣🤣🤣🤣',
+    // sentence: '小用一下vuex🤣🤣🤣🤣🤣',
     imgArr: [0, 1, 2, 3, 4]
 
 }

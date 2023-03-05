@@ -6,13 +6,29 @@ const PRODUCTION_URL = 'http://jisutqybmf.market.alicloudapi.com'
 
 const TEST_URL = 'http://localhost:3000/api'
 
+
+
+
+
 const http = axios.create({
     baseURL: TEST_URL,
     timeout: 1000,
-    headers: {
-        Authorization: 'APPCODE 946883cc4e8145e2bde5b812b61a312c'
-    }
+    
+    // headers: {
+    //     Authorization: 'APPCODE 946883cc4e8145e2bde5b812b61a312c'
+    // }
 }) 
+
+
+// axios 拦截器
+http.interceptors.request.use((config) => {
+    if (config.url === '/login') {
+        return config
+    }
+    config.headers['token'] = sessionStorage.getItem('token')
+    console.log('interceptors',config)
+    return config;
+})
 
 export {
      http

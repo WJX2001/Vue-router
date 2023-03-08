@@ -4,7 +4,7 @@ const MOCK_URL = 'http://127.0.0.1:4523/m1/2110070-0-default'
 
 const PRODUCTION_URL = 'http://jisutqybmf.market.alicloudapi.com'
 
-const TEST_URL = 'http://localhost:3000/api'
+const TEST_URL = 'http://121.5.160.216:3000/api'
 
 
 

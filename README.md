@@ -14,4 +14,4 @@
 - 项目地址：
   - 后端部分：https://github.com/WJX2001/Nodejs-koa
   - 前端部分：https://github.com/WJX2001/Vue-router
-- 部署地址： [wjx.chrisjx.cn]()
+- 部署地址： wjx.chrisjx.cn

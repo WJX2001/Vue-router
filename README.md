@@ -16,3 +16,4 @@
   - 前端部分：https://github.com/WJX2001/Vue-router
 - 部署地址： wjx.chrisjx.cn
 - 访客的登陆帐号 密码 邮箱都写2
+- 由于最近数据裤老是被入侵 所以可能存在登陆不上的情况

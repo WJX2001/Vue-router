@@ -15,3 +15,4 @@
   - 后端部分：https://github.com/WJX2001/Nodejs-koa
   - 前端部分：https://github.com/WJX2001/Vue-router
 - 部署地址： wjx.chrisjx.cn
+- 访客的登陆帐号 密码 邮箱都写2
